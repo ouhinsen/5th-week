@@ -1,0 +1,20 @@
+.selectlist {
+  background: #f8f9fa;
+  width: 300px; }
+  .selectlist a {
+    color: #212529;
+    font-weight: bold; }
+
+.andy {
+  margin-top: 360px; }
+  .andy img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; }
+  .andy h2 {
+    font-size: 16px;
+    margin-bottom: 4px; }
+  .andy p {
+    font-size: 14px; }
+
+/*# sourceMappingURL=all.css.map */
