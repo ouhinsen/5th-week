@@ -12,54 +12,104 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <title>Form Design</title>
   </head>
   <body>
-    <div class="d-flex">
-      <div class="selectlist">
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg"
-            class="pt-4 mb-5 ms-4"
-            alt="logo"
-          />
-        </a>
-        <div class="anser ms-4">
-          <ul class="list-unstyled">
-            <li class="mb-4">
-              <a class="text-decoration-none text-grays" href="#">Dashboard</a>
-            </li>
-            <li class="mb-4">
-              <a class="text-decoration-none" href="#">Question</a>
-            </li>
-            <li class="mb-4">
-              <a class="text-decoration-none" href="#">Assignment</a>
-            </li>
-            <li class="mb-4">
-              <a class="text-decoration-none" href="#">Course</a>
-            </li>
-            <li class="mb-4">
-              <a class="text-decoration-none" href="#">Admin</a>
-            </li>
-            <li class="mb-4">
-              <a class="text-decoration-none" href="#">Settings</a>
-            </li>
-            <div class="andy d-flex align-items-center">
+    <div class="layout d-flex">
+      <nav
+        class="listbar bg-light d-flex justify-content-between flex-column ps-4"
+      >
+        <div class="sectionlist">
+          <div class="section-item">
+            <a href="#">
               <img
-                src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
-                class="mr-3"
-                alt="head"
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg"
+                class="pt-4 mb-5"
+                alt="logo"
               />
-              <div class="name">
-                <h2>Andy Chen</h2>
-                <p>andy0401@mail.com</p>
-              </div>
-            </div>
-          </ul>
+            </a>
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <a class="text-decoration-none link-dark fw-bold" href="#">
+                  <span class="material-icons material-icons me-2">
+                    insert_chart
+                  </span>
+                  Dashboard
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-decoration-none link-dark fw-bold" href="#">
+                  <span class="material-icons material-icons me-2">
+                    question_answer
+                  </span>
+                  Question
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-decoration-none link-dark fw-bold" href="#">
+                  <span class="material-icons material-icons me-2">
+                    assignment
+                  </span>
+                  Assignment
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-decoration-none link-dark fw-bold" href="#">
+                  <span class="material-icons material-icons me-2">
+                    video_library
+                  </span>
+                  Course
+                </a>
+              </li>
+              <li class="mb-4">
+                <a class="text-decoration-none link-dark fw-bold" href="#">
+                  <span class="material-icons material-icons me-2">
+                    people
+                  </span>
+                  Admin
+                </a>
+              </li>
+              <li class="mb-4">
+                <a
+                  class="d-flex text-decoration-none link-dark fw-bold align-items-center"
+                  href="#"
+                >
+                  <span class="material-icons me-2">
+                    settings
+                  </span>
+                  Settings
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex align-items-center pb-4">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
+            class="rounded-circle me-3"
+            style="width: 40px; height: 40px;"
+            alt="head"
+          />
+          <div>
+            <h2 class="fs-6 fw-bold">Andy Chen</h2>
+            <span>andy0401@mail.com</span>
+          </div>
+        </div>
+      </nav>
+      <div class="contentlist">
+        <div class="list-name">
+          <div class="title">
+            <h1>Admin</h1>
+          </div>
         </div>
       </div>
     </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
