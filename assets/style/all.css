@@ -4,5 +4,14 @@
 
 .sectionlist {
   height: 100%; }
+  .sectionlist .section-item a:hover {
+    color: #198754; }
+
+.modal-body .under-line {
+  padding-top: 24.5px;
+  border-bottom: 1px solid #ced4da; }
+
+.modal-footer button {
+  padding: 8px 32px; }
 
 /*# sourceMappingURL=all.css.map */
