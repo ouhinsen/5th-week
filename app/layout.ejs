@@ -6,21 +6,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="assets/style/all.css">
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
+  <div class="d-flex">
+    <nav
+      class="listbar bg-light d-flex justify-content-between flex-column ps-4"
+    >
+      <div class="sectionlist">
+        <div class="section-item">
+          <a href="#">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a42e625b3e98d0fe8ffa5f9f58096fb8326aa845/week5/logo-ANSWER.svg"
+              class="pt-4 mb-5"
+              alt="logo"
+            />
+          </a>
+          <ul class="list-unstyled">
+            <li class="mb-4">
+              <a class="text-decoration-none link-dark fw-bold" href="#">
+                <span class="material-icons material-icons me-2">
+                  insert_chart
+                </span>
+                Dashboard
+              </a>
+            </li>
+            <li class="mb-4">
+              <a class="text-decoration-none link-dark fw-bold" href="#">
+                <span class="material-icons material-icons me-2">
+                  question_answer
+                </span>
+                Question
+              </a>
+            </li>
+            <li class="mb-4">
+              <a class="text-decoration-none link-dark fw-bold" href="#">
+                <span class="material-icons material-icons me-2">
+                  assignment
+                </span>
+                Assignment
+              </a>
+            </li>
+            <li class="mb-4">
+              <a class="text-decoration-none link-dark fw-bold" href="#">
+                <span class="material-icons material-icons me-2">
+                  video_library
+                </span>
+                Course
+              </a>
+            </li>
+            <li class="mb-4">
+              <a class="text-decoration-none link-dark fw-bold" href="#">
+                <span class="material-icons material-icons me-2">
+                  people
+                </span>
+                Admin
+              </a>
+            </li>
+            <li class="mb-4">
+              <a
+                class="d-flex text-decoration-none link-dark fw-bold align-items-center"
+                href="#"
+              >
+                <span class="material-icons me-2">
+                  settings
+                </span>
+                Settings
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center pb-4">
+        <img
+          src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true"
+          class="rounded-circle me-3"
+          style="width: 40px; height: 40px;"
+          alt="head"
+        />
+        <div>
+          <h2 class="fs-6 fw-bold">Andy Chen</h2>
+          <span>andy0401@mail.com</span>
+        </div>
+      </div>
+    </nav>
+    <!---以上為navbar-->
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+  crossorigin="anonymous"
+></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+   <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+ 
 </body>
 
 </html>
